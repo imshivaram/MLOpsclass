@@ -1,0 +1,30 @@
+name: train
+run_id: commands[0]
+env COMSPEC: C:\WINDOWS\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 8
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\WINDOWS
+env TEMP: C:\Users\sivar\AppData\Local\Temp
+env TMP: C:\Users\sivar\AppData\Local\Temp
+env USERPROFILE: C:\Users\sivar
+env PATH: D:\MLops\MLOps\section-05-production-model-package\.tox\test_package\Scripts;C:\Program Files\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Symantec\VIP Access Client\;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Git\cmd;C:\Users\sivar\AppData\Local\activestate\cache\bin;C:\Users\sivar\AppData\Local\ActiveState\StateTool\release\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python\Python395\Scripts\;C:\Python\Python395\;C:\Users\sivar\AppData\Local\Microsoft\WindowsApps;C:\Users\sivar\AppData\Local\atom\bin;C:\Users\sivar\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\sivar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sivar\AppData\Local\GitHubDesktop\bin
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env PYTHONHASHSEED: 0
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: D:\MLops\MLOps\section-05-production-model-package\.tox
+env TOX_ENV_DIR: D:\MLops\MLOps\section-05-production-model-package\.tox\test_package
+env VIRTUAL_ENV: D:\MLops\MLOps\section-05-production-model-package\.tox\test_package
+env COLUMNS: 156
+env LINES: 40
+metadata pid: 9244
+cwd: D:\MLops\MLOps\section-05-production-model-package
+allow: D:\MLops\MLOps\section-05-production-model-package\.tox\test_package\Scripts\*
+cmd: python regression_model/train_pipeline.py
+exit_code: 0
